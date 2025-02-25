@@ -1,0 +1,12 @@
+// 수정해야할 파일1
+// C:\Users\terec\study-frontend\prac-dnd-kit\components.json
+// fsd 구조를 따르기 위해 컴퍼넌트 저장 장소를 변경
+
+// 수정해야할 파일2
+// C:\Users\terec\study-frontend\prac-dnd-kit\tailwind.config.ts
+// shadcn-ui에서 제공하는 컴포넌트들을 기본적으로 components/ui/에 추가하도록 설정됩니다.
+// 하지만 FSD(Feature-Sliced Design) 구조를 적용하면서 **components/ui/ → shared/ui/**로 변경했기 때문에, 
+// Tailwind가 해당 디렉토리를 제대로 인식할 수 있도록 새로운 경로를 추가해야 합니다.
+
+// 설치해야할 모듈
+// npm install @dnd-kit/core @dnd-kit/sortable @dnd-kit/accessibility --legacy-peer-deps

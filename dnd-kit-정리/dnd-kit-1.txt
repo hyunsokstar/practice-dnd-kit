@@ -1,0 +1,10 @@
+1. 
+useDraggable의 역할
+id를 설정하여 특정 요소를 드래그 가능하게 만든다.
+setNodeRef를 통해 요소를 DOM에 연결한다.
+transform 값을 통해 드래그된 위치를 관리한다.
+listeners와 attributes를 활용해 드래그 이벤트를 처리하고 웹 접근성을 보장한다.
+
+2.
+Dnd Kit을 사용할 때 반드시 최상위 컨텍스트로 감싸야 한다는 점을 익혀야 한다.
+DndContext가 있어야 useDraggable이 동작할 수 있다.
